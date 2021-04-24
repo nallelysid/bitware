@@ -1,0 +1,42 @@
+<div class="row header">
+  <div class="col img-row">
+    <img [src]="data.image">    
+  </div>  
+  <div class="col">         
+      <span class="text-center heder-text"  [matBadge]="data.id" matBadgeOverlap="false">{{data.name}}</span>
+      
+  </div>  
+</div>
+<div class="row header py-1"> 
+    <mat-chip-list class="mat-chip-list-row" aria-label="Color selection">
+      <mat-chip *ngFor= "let r of tipos" color="accent"> {{r}}</mat-chip>      
+    </mat-chip-list>  
+  
+</div>
+
+<div mat-dialog-content class="p-1">  
+   
+    <h3 class="pt-3 subtitle">Estadisticas</h3>
+    <div *ngFor= "let bar of statistics">
+      <div class="col w-100">
+        
+          <h5>{{bar.name}}</h5>
+        
+          <mat-progress-bar  class="bar" mode="determinate" [value]="bar.base_stat"></mat-progress-bar>
+        
+        
+      </div>
+      
+    </div>
+   <hr>
+   <h3 class="pt-3 subtitle">Habilidades</h3>
+   <mat-chip-list class="mat-chip-list-row" aria-label="Color selection">
+    <mat-chip *ngFor= "let r of abilitys" color="accent"> {{r.name}}</mat-chip>      
+  </mat-chip-list>  
+
+
+</div>
+<div mat-dialog-actions>
+  <button mat-button color="primary" (click)="onNoClick()">Cerrar</button>
+  
+</div>

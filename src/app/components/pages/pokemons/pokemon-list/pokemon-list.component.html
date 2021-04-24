@@ -1,0 +1,23 @@
+
+  <div class="row px-5">
+    <div fxHide.lt-md>
+      <span class="column-label">Columns</span>
+      <mat-slider [max]="6" [min]="4" [(ngModel)]= "gridColumns" [thumbLabel]="true">
+      </mat-slider>
+    </div>
+    <span class="spacer"></span>
+    <mat-paginator [length]="total"                
+                [pageSizeOptions]="[20]">
+    </mat-paginator>
+  </div>
+
+
+
+ <div class="content">
+  <div fxLayout="row wrap" fxLayoutGap="22px grid">
+    <div [fxFlex]="(100/gridColumns) + '%'" fxFlex.xs="100%" fxFlex.sm="50%" *ngFor="let poc of data2">
+      <app-pockemon-card [dataPockemon]="poc" (click)="onSearch(poc.id)"></app-pockemon-card>
+     
+    </div>
+  </div>
+  </div>

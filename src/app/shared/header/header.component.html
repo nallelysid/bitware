@@ -1,0 +1,33 @@
+
+
+
+  <mat-toolbar >
+    <mat-toolbar-row>
+        <span><img mat-card-avatar src="../../../assets/images/pngegg.png" alt=""></span>
+        <span class="pl-5">Pokemon APP</span>
+        <span class="spacer"></span>
+
+
+        <button mat-icon-button class="example-icon" (click)="showProfile()">
+            <mat-icon >account_circle</mat-icon>
+            
+          </button>
+   
+        <button
+          mat-button
+          [matMenuTriggerFor]="menu"
+          #languageMenuTrigger="matMenuTrigger">
+          
+          <mat-icon>search</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu" [hasBackdrop]="false" >            
+            
+            <div class="search-div" >
+                <app-form-search (onClose) = "closeMenu()"></app-form-search>
+            </div>         
+           
+          </mat-menu>
+      </mat-toolbar-row>
+  </mat-toolbar>
+  
+  

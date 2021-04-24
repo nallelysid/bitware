@@ -1,0 +1,30 @@
+img {
+    display: block;
+    max-width: 50%;
+    height: auto; 
+    float: left;
+   
+}
+.img-row{
+    justify-content: center;
+}
+.header{
+    align-items: center;
+    background-color: lightcoral;
+
+}
+.heder-text{
+    font-family: cursive;
+    font-size: 5vw;
+}
+.bar{
+    height: 0.5rem;
+}
+
+.subtitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.mat-dialog-actions {
+    justify-content: flex-end;
+}
