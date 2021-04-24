@@ -17,7 +17,9 @@ import { MatListModule } from '@angular/material/list'
 import { MatButtonModule } from '@angular/material/button'
 import { MatMenuModule } from '@angular/material/menu'
 import { MatInputModule } from '@angular/material/input'
-import { MatDialogModule } from '@angular/material/dialog'
+import { MatDialogModule } from '@angular/material/dialog';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment'
 
 
 
@@ -43,7 +45,13 @@ import { MatDialogModule } from '@angular/material/dialog'
     MatMenuModule,
     MatInputModule,
 
-    MatDialogModule
+    MatDialogModule,
+     ServiceWorkerModule.register('ngsw-worker.js', {
+       enabled: environment.production,
+       // Register the ServiceWorker as soon as the app is stable
+       // or after 30 seconds (whichever comes first).
+       registrationStrategy: 'registerWhenStable:30000'
+     })
     
   ],
   providers: [],

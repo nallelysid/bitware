@@ -20,8 +20,7 @@
     <div *ngFor= "let bar of statistics">
       <div class="col w-100">
         
-          <h5>{{bar.name}}</h5>
-        
+          <h5>{{bar.name}}</h5>        
           <mat-progress-bar  class="bar" mode="determinate" [value]="bar.base_stat"></mat-progress-bar>
         
         
