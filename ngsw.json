@@ -1,0 +1,93 @@
+{
+  "configVersion": 1,
+  "timestamp": 1619325333795,
+  "index": "https://github.com/nallelysid/bitware.git/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://github.com/nallelysid/bitware.git/4.049ff8118b3e64e51798.js",
+        "https://github.com/nallelysid/bitware.git/favicon.ico",
+        "https://github.com/nallelysid/bitware.git/index.html",
+        "https://github.com/nallelysid/bitware.git/main.87a77f69289971541394.js",
+        "https://github.com/nallelysid/bitware.git/manifest.webmanifest",
+        "https://github.com/nallelysid/bitware.git/ngsw-worker.js",
+        "https://github.com/nallelysid/bitware.git/polyfills.94daefd414b8355106ab.js",
+        "https://github.com/nallelysid/bitware.git/runtime.6bfdb944486448723d2a.js",
+        "https://github.com/nallelysid/bitware.git/safety-worker.js",
+        "https://github.com/nallelysid/bitware.git/scripts.1ee99a40e1bee4ac1ba6.js",
+        "https://github.com/nallelysid/bitware.git/styles.669ec79cbe7e4065f8b4.css",
+        "https://github.com/nallelysid/bitware.git/worker-basic.min.js"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://github.com/nallelysid/bitware.git/assets/icons/icon-128x128.png",
+        "https://github.com/nallelysid/bitware.git/assets/icons/icon-144x144.png",
+        "https://github.com/nallelysid/bitware.git/assets/icons/icon-152x152.png",
+        "https://github.com/nallelysid/bitware.git/assets/icons/icon-192x192.png",
+        "https://github.com/nallelysid/bitware.git/assets/icons/icon-384x384.png",
+        "https://github.com/nallelysid/bitware.git/assets/icons/icon-512x512.png",
+        "https://github.com/nallelysid/bitware.git/assets/icons/icon-72x72.png",
+        "https://github.com/nallelysid/bitware.git/assets/icons/icon-96x96.png",
+        "https://github.com/nallelysid/bitware.git/assets/images/pngegg.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://github.com/nallelysid/bitware.git/4.049ff8118b3e64e51798.js": "d87d4398c8ae9ec37adb8445876792dad99574d7",
+    "https://github.com/nallelysid/bitware.git/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://github.com/nallelysid/bitware.git/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://github.com/nallelysid/bitware.git/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://github.com/nallelysid/bitware.git/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://github.com/nallelysid/bitware.git/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://github.com/nallelysid/bitware.git/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://github.com/nallelysid/bitware.git/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://github.com/nallelysid/bitware.git/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://github.com/nallelysid/bitware.git/assets/images/pngegg.png": "470f92a7ac8de477396b90eaa19c9765d5396254",
+    "https://github.com/nallelysid/bitware.git/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://github.com/nallelysid/bitware.git/index.html": "3a078b1feb11849f0f724e085118f9dd9154b706",
+    "https://github.com/nallelysid/bitware.git/main.87a77f69289971541394.js": "ca039e8e6497c03da6547114641e52d7a51ea88c",
+    "https://github.com/nallelysid/bitware.git/manifest.webmanifest": "b7c0153c66337f1269bde3c352e03ffb920f0434",
+    "https://github.com/nallelysid/bitware.git/ngsw-worker.js": "b44316be1c1338e9e8bd30ee40946085916c58e4",
+    "https://github.com/nallelysid/bitware.git/polyfills.94daefd414b8355106ab.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
+    "https://github.com/nallelysid/bitware.git/runtime.6bfdb944486448723d2a.js": "40ebf6144571e87f47cf6f2d06a7a18062afdb0f",
+    "https://github.com/nallelysid/bitware.git/safety-worker.js": "f532926317210be6e2679d21748dc44a35389807",
+    "https://github.com/nallelysid/bitware.git/scripts.1ee99a40e1bee4ac1ba6.js": "3cc9855bf56178744184b89a17280671f019b951",
+    "https://github.com/nallelysid/bitware.git/styles.669ec79cbe7e4065f8b4.css": "d620a8aa2f761e1703133bad7cddc544f06a1404",
+    "https://github.com/nallelysid/bitware.git/worker-basic.min.js": "f532926317210be6e2679d21748dc44a35389807"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
